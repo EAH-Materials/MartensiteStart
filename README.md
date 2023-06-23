@@ -34,6 +34,7 @@ plt.legend()
 plt.show(block = True)
 ```
 
+![example](https://github.com/EAH-Materials/MartensiteStart/assets/47680554/5a3d1574-d125-435e-baff-9ec2aae72593)
 
 ## Cite
 
