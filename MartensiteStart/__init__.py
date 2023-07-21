@@ -75,9 +75,9 @@ class MartensiteStart:
         self.T['Wang II']= round(540 - 584.9*self.C - 117.7*self.Mn - 23.1*self.Si - 42.5*self.Cr + 49.9*self.Mo - 62.5*self.CSi + 178.3*self.CMn - 10*self.CCr + 52.5*self.CMo + 117.2*self.SiMn + 50.9*self.SiCr - 142.2*self.SiMo - 29.2*self.MnCr -9.7*self.MnMo + 69.9*self.CrMo) #Wang II - mit Wechselwirkungen
         self.T['Kunitake']= round(560.5 - 407.3*self.C - 37.8*self.Mn - 7.3*self.Si - 14.8*self.Cr - 4.5*self.Mo - 19.5*self.Ni + 0*self.Al + 0*self.Co -20.5*self.Cu) #Kunitake
         self.T['Liu']= round(550 - 361*self.C - 39*self.Mn - 0*self.Si - 20*self.Cr - 5*self.Mo - 17*self.Ni + 30*self.Al + 16*self.Co -35*self.V - 10*self.Cu - 5*self.W) #Liu 
-        self.T['Capdevilla']= round((764.2 - 302.6*self.C - 30.6*self.Mn - 14.5*self.Si - 8.9*self.Cr + 2.4*self.Mo - 16.6*self.Ni + 0*self.Al + 8.58*self.Co)-273,15) #Capdevilla
+        self.T['Capdevilla']= round((764.2 - 302.6*self.C - 30.6*self.Mn - 14.5*self.Si - 8.9*self.Cr + 2.4*self.Mo - 16.6*self.Ni + 0*self.Al + 8.58*self.Co)-273.15) #Capdevilla
         self.T['Mahieu']= round(539 - 423*self.C - 30.4*self.Mn - 7.5*self.Si - 0*self.Cr - 0*self.Mo - 0*self.Ni + 30*self.Al + 0*self.Co) # Mahieu
-        self.T['Dai']= round(1184.15 - 199.8*self.C - 199.8*1.4*self.N - 21.7*self.Mn - 45*self.Si - 6.8*self.Cr - 55.9*self.Mo - 17.9*self.Ni + 0*self.Al - 1.9*(self.C+1.4*self.N)*(self.Mo+self.Cr+self.Mn) - 14.4*self.DaiYuan - 410 - 273,15)   #Dai   
+        self.T['Dai']= round(1184.15 - 199.8*self.C - 199.8*1.4*self.N - 21.7*self.Mn - 45*self.Si - 6.8*self.Cr - 55.9*self.Mo - 17.9*self.Ni + 0*self.Al - 1.9*(self.C+1.4*self.N)*(self.Mo+self.Cr+self.Mn) - 14.4*self.DaiYuan - 410 - 273.15)   #Dai   
         self.T['Kaar']= round(692 - 502*self.WurCN - 37*self.Mn - 14*self.Si + 20*self.Al - 11*self.Cr) # Kaar	
         self.T['Mikula']= round(635 - 549.8*self.C - 85.4*self.Mn - 69*self.Si - 18.1*self.Cr - 69.3*self.Mo - 31*self.Ni - 1746.5*self.B) # Mikula
         self.T['von Bohemen']= round(565 - 600*(1-math.exp(-0.96*self.C)) - 31*self.Mn - 13*self.Si - 10*self.Cr - 12*self.Mo - 18*self.Ni) #von Bohemen
